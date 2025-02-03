@@ -12,6 +12,8 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Plan General de Evaluaciones del Curso](eval.md)
 
+[Opciones de Proyecto de Aula](projects.md)
+
 ## Tema 1 : Pruebas Unitarias
 
 [Pastel de Pruebas Unitarias](unit_testing.md)
