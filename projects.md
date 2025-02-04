@@ -2,8 +2,9 @@
 
 ##	Condiciones Generales}
 -	Equipos de 2 estudiantes, solo en caso de que los matriculados en el curso sean impares, se permite un equipo de 3
--	Cada equipo debe contactar a un experto que les ayude a entender el problema y redactar los casos de prueba
--	En cada tema, se proporciona un conjunto de variables mínimas de entrada y salida, pero el equipo está en libertad de agregar más variables, si en la investigación sobre el tema encuestran que son variables relevantes y deberían ser incluidas en su proyecto
+-	Cada equipo debe contactar a un experto que les ayude a entender el problema y redactar los casos de prueba. la entrevista con el experto debe ser grabados en video o audio.
+-	De la entrevista con el experto el equipo debe identificar las variables de entrada y salida, así como las fórmulas que deben utilizar para realizar los cálculos
+- usando las variables y las fórmulas suministradas por el experto deberán construir un libro de Excel con al lo menos 10 casos de prueba del problema
 -	El equipo debe tener un repositorio en GitHub, donde hacen la entrega, y en la UVirtual van a suministrar la URL del proyecto
 
 ##		Entregas
