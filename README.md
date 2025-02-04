@@ -10,6 +10,8 @@ Github: https://github.com/ProfeBill
 
 Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus comentarios. 
 
+[Introducción al Curso Lenguajes de Programación y Código Limpio](intro.md)
+
 [Plan General de Evaluaciones del Curso](eval.md)
 
 [Opciones de Proyecto de Aula](projects.md)
