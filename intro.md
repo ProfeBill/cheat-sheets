@@ -1,4 +1,4 @@
-![Como ser mejor programador](getbetter.jpg)
+![Como ser mejor programador](img/getbetter.jpg)
 
 Programar es como la vida y muchos de los principios que se aplican para escribir codigo, también se aplican para vivir en el mundo real.
 
