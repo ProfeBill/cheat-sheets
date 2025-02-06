@@ -57,12 +57,11 @@ Es un caso documentado de los resultados esperados de la ejecución de un artefa
 - Ayudan a escribir la documentación y facilitan la capacitación práctica de los usuarios finales cuando el software sea entregado
 
 ### Elementos de un Caso de Prueba
-			
-1. Identidad
-				Nombre
-				Número
+
+[![](https://mermaid.ink/img/pako:eNo9jDsKwzAQBa8itrLBvoCKVEmXIsRdULNI6w9IWrNeEYLx3SNCkm5meLwdPAcCC2Pkp59R1FzvLl-yCgY0fX8yN2FPGzfNF9r2kweMS0DoIJEkXEL92F02xoHOlMiBrRhoxBLVgctHnWJRHl7Zg1Up1IFwmWawI8atWlkDKp0XnATTv66YH8w_P95cDTvA?type=png)](https://mermaid.live/edit#pako:eNo9jDsKwzAQBa8itrLBvoCKVEmXIsRdULNI6w9IWrNeEYLx3SNCkm5meLwdPAcCC2Pkp59R1FzvLl-yCgY0fX8yN2FPGzfNF9r2kweMS0DoIJEkXEL92F02xoHOlMiBrRhoxBLVgctHnWJRHl7Zg1Up1IFwmWawI8atWlkDKp0XnATTv66YH8w_P95cDTvA)
+
+1. Identidad (Nombre o Número)
 2. Datos de Entrada
-			...
 3. Datos de Salida
 
 ### Características de un buen Caso de Prueba
