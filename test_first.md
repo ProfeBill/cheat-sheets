@@ -31,13 +31,6 @@ La filosofía Test First es una simplificación de la metodología [Test Driven 
 - Ejecute la prueba y verifique que pase
 - Haga refactoring para asegurarse de que el código cumple las condiciones de Clean Code
 
-## Pasos de una prueba
-- Establezca las variables de entrada con los valores del caso de prueba
-- Establezca el valor esperado de las variables de salida
-- Invoque la funcionalidad a probar
-- Verifique que las variables de salida tengan los valores esperados
- 
-
 ## Test Case
 
 **Definición**
