@@ -40,7 +40,7 @@ La filosofía Test First es una simplificación de la metodología [Test Driven 
 
 ## Test Case
 
-**Definición **
+**Definición**
 
 Es un caso documentado de los resultados esperados de la ejecución de un artefacto de software, dado un conjunto específico de entradas que se le provean
 
@@ -63,15 +63,6 @@ Es un caso documentado de los resultados esperados de la ejecución de un artefa
 1. Identidad (Nombre o Número)
 2. Datos de Entrada
 3. Datos de Salida
-
-### Características de un buen Caso de Prueba
-			
-- **Simple** : Que pueda entenderlo un niño de 5 años
-- **Completo** : Debe incluir explícitamente todas las variables y evitar cualquier supuesto 
-- **Concreto** : Debe incluir solo los datos verdaderamente relevantes
-- **Objetivo** : Cualquier persona involucrada en el proyecto debe poder entenderlo igual que otra sin lugar a ambigüedades ni interpretaciones personales
-- **Repetible** : Cada vez que se ejecute el caso de prueba, debe arrojar los mismo resultados
-- **Automatizable** : Debe ser susceptible de ser ejecutado en forma de un artefacto de software
 
 ### Ejemplos
 
@@ -145,6 +136,15 @@ Interrumpen la ejecución del programa y la funcionalidad debe disparar una Exce
 
 Las verificaciones de esas condiciones de error siempre se hacen al comienzo de cada funcionalidad
 
+
+### Características de un buen Caso de Prueba
+			
+- **Simple** : Que pueda entenderlo un niño de 5 años
+- **Completo** : Debe incluir explícitamente todas las variables y evitar cualquier supuesto 
+- **Concreto** : Debe incluir solo los datos verdaderamente relevantes
+- **Objetivo** : Cualquier persona involucrada en el proyecto debe poder entenderlo igual que otra sin lugar a ambigüedades ni interpretaciones personales
+- **Repetible** : Cada vez que se ejecute el caso de prueba, debe arrojar los mismo resultados
+- **Automatizable** : Debe ser susceptible de ser ejecutado en forma de un artefacto de software
 
 ### Consejos prácticos para escribir buenos TC
 
