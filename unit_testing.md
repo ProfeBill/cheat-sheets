@@ -71,19 +71,31 @@ Puede usar cualquiera de los siguientes métodos, dependiendo de la condición q
   # Prueba que una variable NO sea instancia de un tipo
   assertNotIsInstance(a, b)
 
+## Ejecución de la prueba
+
+Recuerde invocar en el código principal del módulo al método unittest.main()
+
+``` 
+
+if __name__ == '__main__':
+    unittest.main()
+
+```
+
 
 # Ejemplo completo
 
 ```
 
-# Todas las prueba sunitarias importan la biblioteca unittest
+  # Todas las prueba sunitarias importan la biblioteca unittest
 import unittest
-# Las pruebas importan los modulos que hacen el trabajo
+
+  # Las pruebas importan los modulos que hacen el trabajo
 import PaymentLogic 
 
 
-# Debe existir por lo menos una clase que contenga las pruyebas unitarias
-# descediente de unittest.TestCase
+  # Debe existir por lo menos una clase que contenga las pruyebas unitarias
+  # descediente de unittest.TestCase
 class CreditCardTest(unittest.TestCase):
 
     # Cada prueba unitaria es un metodo la clase
@@ -142,10 +154,10 @@ class CreditCardTest(unittest.TestCase):
         # Verifica en una linea si una funcion dispara una excepcion por no haber compra
         self.assertRaises( PaymentLogic.InvalidPurchaseException, PaymentLogic.calcPayment, purchase_amount, interest_rate, num_payments  )
 
-# Este fragmento de codigo permite ejecutar la prueb individualmente
-# Va fijo en todas las pruebas
+  # Este fragmento de codigo permite ejecutar la prueb individualmente
+  # Va fijo en todas las pruebas
+
 if __name__ == '__main__':
-    # print( Payment.calcularCuota.__doc__)
     unittest.main()
 
 ```
