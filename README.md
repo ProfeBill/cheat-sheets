@@ -22,6 +22,8 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Pastel de Pruebas Unitarias](unit_testing.md)
 
+[Pastel de Excepciones](exception.md)
+
 ## Tema 2 : Código Limpio
 
 [Pastel de Código Limpio](clean_code.md)

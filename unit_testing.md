@@ -27,7 +27,7 @@ Debe existir por lo menos una clase que contenga las pruebas unitarias, descedie
  Cada prueba unitaria es un metodo la clase Caso de Prueba
 
 ```
-    def testPayment1(self):
+    def test_normal_1(self):
 ```
 
 ## Verificación del resultado de la prueba
@@ -71,9 +71,25 @@ Puede usar cualquiera de los siguientes métodos, dependiendo de la condición q
   # Prueba que una variable NO sea instancia de un tipo
   assertNotIsInstance(a, b)
 
+## Control de Excepciones en los casos de error
+
+La forma mas simple de controlar que un bloque de código si dispare una excepción
+es mediante un bloque ```with``` y un llamado a ```assertRaises``` para verificar
+que cierto tipo de excepción si se esté disparando.
+
+```
+    with self.assertRaises( PaymentLogic.ExcesiveInterestError ):
+      PaymentLogic.calcPayment( purchase_amount, interest_rate, num_payments )
+```
+
+[Consulta: Pastel de Excepciones](exception.md)
+
+
 ## Ejecución de la prueba
 
 Recuerde invocar en el código principal del módulo al método unittest.main()
+
+
 
 ``` 
 
@@ -99,7 +115,7 @@ import PaymentLogic
 class CreditCardTest(unittest.TestCase):
 
     # Cada prueba unitaria es un metodo la clase
-    def testPayment1(self):
+    def test_normal_1(self):
         # Cada metodo de prueba debe llamar un metodo assert
         # para comprobar si la prueba pasa
         # Datos de Entrada
@@ -116,7 +132,8 @@ class CreditCardTest(unittest.TestCase):
         # Prueba que dos variables sean iguales
         self.assertAlmostEqual( expected, result, 2  )
 
-    def testExcesiveInterest( self ):
+    # Prueba un caso de error, capturando manualmente la excepcion
+    def test_excesive_interest( self ):
         # Entradas
         purchase_amount = 50000
         num_payments = 36
@@ -135,7 +152,8 @@ class CreditCardTest(unittest.TestCase):
 
         self.assertTrue(  testOk, "No se disparó la excepcion esperada" )            
 
-    def testExcesiveInterestOneLine( self ):
+    # Prueba un caso de error usando assertRaises en una sola línea
+    def test_excesive_interest_one_line( self ):
         # Entradas
         purchase_amount = 50000
         num_payments = 36
@@ -144,15 +162,29 @@ class CreditCardTest(unittest.TestCase):
         # Verifica en una linea si una funcion dispara una excepcion
         self.assertRaises( PaymentLogic.ExcesiveInterestError, PaymentLogic.calcPayment, purchase_amount, interest_rate, num_payments  )
 
+    # Prueba un caso de error, usando assertRaises y un bloque with
+    def test_excesive_interest_with( self ):
+        # Entradas
+        purchase_amount = 50000
+        num_payments = 36
+        interest_rate = 0.124
 
-    def testPurchaseZero( self ):
+        # Verifica si una funcion dispara una excepcion
+        # Todas las instrucciones dentro del bloque with se evaluan primero
+        # y luego el assertRaises
+        with self.assertRaises( PaymentLogic.ExcesiveInterestError ):
+          PaymentLogic.calcPayment( purchase_amount, interest_rate, num_payments )
+
+    def test_purchase_zero( self ):
         # Entradas
         purchase_amount = 0
         num_payments = 60
         interest_rate = 0.024
 
         # Verifica en una linea si una funcion dispara una excepcion por no haber compra
-        self.assertRaises( PaymentLogic.InvalidPurchaseException, PaymentLogic.calcPayment, purchase_amount, interest_rate, num_payments  )
+        with self.assertRaises( PaymentLogic.InvalidPurchaseException ):
+          PaymentLogic.calcPayment( purchase_amount, interest_rate, num_payments )
+
 
   # Este fragmento de codigo permite ejecutar la prueb individualmente
   # Va fijo en todas las pruebas
