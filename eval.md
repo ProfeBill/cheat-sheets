@@ -6,7 +6,7 @@
 - [ ] Creado repositorio en Github para el proyecto
 - [ ] Informada la dirección del Repositorio al Profesor a través de la entrega en la UVirtual
 - [ ] Construido libro en Excel con al menos 10 casos de prueba y subido al repo
-- [ ] Redactado documento README con la explcación de las entradas, proceso y salidas
+- [ ] Redactado documento README con Nombres de los creadores y la explcación de las entradas, proceso y salidas
 - [ ] Construidos 3 casos de prueba normales en Python
 - [ ] Construidos 3 casos de prueba extraordinarios en Python
 - [ ] Construidos 4 casos de error en Python
