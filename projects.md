@@ -1,6 +1,6 @@
 # Proyectos de Aula LPCL
 
-##	Condiciones Generales}
+##	Condiciones Generales
 -	Equipos de 2 estudiantes, solo en caso de que los matriculados en el curso sean impares, se permite un equipo de 3
 -	Cada equipo debe contactar a un experto que les ayude a entender el problema y redactar los casos de prueba. la entrevista con el experto debe ser grabados en video o audio.
 -	De la entrevista con el experto el equipo debe identificar las variables de entrada y salida, así como las fórmulas que deben utilizar para realizar los cálculos
@@ -52,3 +52,8 @@ Los impuestos pueden ser:
 - Impuesto Nacional al Consumo (INC)
 - Impuesto de rentas a los licores
 - Impuesto de Bolsas Plásticas
+
+### Simulador de Credito Educativo
+
+Se requiere una aplicación que le permita a un estudiante saber cuál es la cuota mensual que deberá pagar a futuro si toma un crédito educativo (tipo Icetex)
+con periodo de gracia y en la modalidad de Largo Plazo (todos los pagos se hacen después de graduarse)
