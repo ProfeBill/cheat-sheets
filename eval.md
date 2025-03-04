@@ -16,6 +16,17 @@
 
 ## Tema 2 : Código Limpio
 
+-[ ] Estructura de carpetas sugerida implementada
+-[ ] Descripción de la arquitectura en el README
+-[ ] Instrucciones para ejecutar las pruebas unitarias en el README
+-[ ] Instrucciones para ejecutar la interfaz de Consola en el README
+-[ ] Enviada primera revisión del código al equipo que le entrega el proyecto
+-[ ] Corregida la primera revisión del código 
+-[ ] Enviada la segunda revisión de código 
+-[ ] Corregida la segunda revisión
+-[ ] Revisión del código con herramienta automatizada
+-[ ] Revisión del código por parte del profesor
+
 ## Tema 3 : Interfaz de Usuario Gráfica
 
 ## Tema 4 : Bases de Datos Relacionales

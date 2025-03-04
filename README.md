@@ -26,7 +26,11 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 ## Tema 2 : Código Limpio
 
-[Pastel de Código Limpio](clean_code.md)
+[Pastel de Código Limpio en Python](clean_code.md)
+
+[Libro completo en Inglés](https://github.com/GunterMueller/Books-3/blob/master/Clean%20Code.pdf)
+
+[Libro completo en Español](https://doku.pub/documents/martin-robert-c-codigo-limpiopdf-7l5r53vv7zqk)
 
 ## Tema 3 : Interfaz de Usuario Gráfica
 
