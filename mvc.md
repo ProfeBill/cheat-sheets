@@ -79,5 +79,5 @@ import sys
 sys.path.append("src")
 
 # Luego puede importar normalmente
-import model.logic
+from model import logic
 ```
