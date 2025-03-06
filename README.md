@@ -28,7 +28,7 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Pastel de Código Limpio en Python](clean_code.md)
 
-[Libro completo en Inglés](https://github.com/GunterMueller/Books-3/blob/master/Clean%20Code.pdf)
+[Libro completo en Inglés](https://github.com/media-lib/prog_lib/blob/master/general/Robert%20Martin%20-%20Clean%20Code.pdf)
 
 [Libro completo en Español](https://doku.pub/documents/martin-robert-c-codigo-limpiopdf-7l5r53vv7zqk)
 
