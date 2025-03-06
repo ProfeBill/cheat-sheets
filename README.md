@@ -32,6 +32,9 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Libro completo en Español](https://doku.pub/documents/martin-robert-c-codigo-limpiopdf-7l5r53vv7zqk)
 
+[Pastel de Arquiectura MVC](mvc.md)
+
+
 ## Tema 3 : Interfaz de Usuario Gráfica
 
 [Buenas prácticas](gui.md)
