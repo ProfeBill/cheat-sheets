@@ -81,3 +81,16 @@ sys.path.append("src")
 # Luego puede importar normalmente
 from model import logic
 ```
+
+### Agregar rutas de busqueda a Python en Visual Studio Code
+
+Edite el archivo settings.json y agregue estas entradas:
+
+```
+    "python.autoComplete.extraPaths": [
+       "src"
+    ],
+    "python.analysis.extraPaths": [
+        "src"
+    ],
+```
