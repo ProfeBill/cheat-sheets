@@ -34,6 +34,8 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Pastel de Arquiectura MVC](mvc.md)
 
+[Zen of Python](https://elpythonista.com/zen-de-python)
+
 
 ## Tema 3 : Interfaz de Usuario Gráfica
 
