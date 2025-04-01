@@ -29,6 +29,17 @@
 
 ## Tema 3 : Interfaz de Usuario Gráfica
 
+- [ ] Fork del proyecto recibido y reportado en la UVirtual
+- [ ] Funcionalidad básica implementada en GUI
+- [ ] Control de excepciones y mensajes de error amigables
+- [ ] Actualizado README con integrantes del equipo e instrucciones para ejecutar GUI
+- [ ] Revisado el código del proyecto que reciben para la siguiente entrega
+- [ ] Corregidos los Issues que les reporta el equipo que recibe para la siguiente entrega
+- [ ] Ejecutable para Windows generado
+- [ ] App para Android o iOS generada
+- [ ] Código Limpio aplicado
+- [ ] Pruebas Unitarias siguen ejecutando 
+
 ## Tema 4 : Bases de Datos Relacionales
 
 ## Tema 5 : Aplicación Web
