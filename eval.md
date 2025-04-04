@@ -31,8 +31,8 @@
 
 - [ ] Fork del proyecto recibido y reportado en la UVirtual
 - [ ] Funcionalidad básica implementada en GUI
-- [ ] Control de excepciones y mensajes de error amigables
 - [ ] Actualizado README con integrantes del equipo e instrucciones para ejecutar GUI
+- [ ] Control de excepciones y mensajes de error amigables
 - [ ] Revisado el código del proyecto que reciben para la siguiente entrega
 - [ ] Corregidos los Issues que les reporta el equipo que recibe para la siguiente entrega
 - [ ] Ejecutable para Windows generado
