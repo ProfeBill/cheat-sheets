@@ -40,7 +40,8 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 ## Tema 3 : Interfaz de Usuario Gráfica
 
 [Buenas prácticas](gui.md)
-[Pastel de Kivy](kivy.md)
+
+[Pastel para compilar aplicacioes Kivy en Android](kivy.md)
 
 ## Tema 4 : Bases de Datos Relacionales
 
