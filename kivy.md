@@ -6,7 +6,7 @@
 
 * Si el equipo es Windows, Asegurese de instalar Ubuntu 22.04 en WSL (debe reiniciar al final):
 ```
-wsl install Ubuntu-22.04 
+wsl --install Ubuntu-22.04 
 ```
 
 * Instalar pip3
