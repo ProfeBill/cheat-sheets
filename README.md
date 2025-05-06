@@ -46,6 +46,7 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 ## Tema 4 : Bases de Datos Relacionales
 
 [Pastel de SQL](sql.md)
+
 [Lista de Chequeo para Construir funcionalidades con Bases de Datos y MVC](mvc-checklist.md)
 
 ## Tema 5 : Aplicación Web
