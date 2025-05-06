@@ -41,11 +41,12 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Buenas prácticas](gui.md)
 
-[Pastel para compilar aplicacioes Kivy en Android](kivy.md)
+[Pastel para compilar aplicaciones Kivy en Android](kivy.md)
 
 ## Tema 4 : Bases de Datos Relacionales
 
 [Pastel de SQL](sql.md)
+[Lista de Chequeo para Construir funcionalidades con Bases de Datos y MVC](mvc-checklist.md)
 
 ## Tema 5 : Aplicación Web
 
