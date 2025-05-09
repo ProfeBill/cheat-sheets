@@ -58,3 +58,13 @@
 
 ## Tema 5 : Aplicación Web
 
+- [ ] Fork del Proyecto recibido creado y reportado en la entrega en la U Virtual
+- [ ] Funcionalidad Web para Buscar
+- [ ] Funcionalidad Web para Insertar 
+- [ ] Funcionalidad Web para Modificar
+- [ ] Menú de Inicio para acceder a las funcionalidades
+- [ ] Aplicación publicada en la Web
+- [ ] Pruebas Unitarias siguen pasando completas
+- [ ] Instrucciones en el README para ejecutar la aplicación localmente y con una base de datos en blanco
+- [ ] Opción en el Menú para crear las tablas de la BD
+- [ ] Estructura de Carpetas MVC implementada con Blueprits de Flask
