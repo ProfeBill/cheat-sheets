@@ -51,6 +51,7 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 ## Tema 5 : Aplicación Web
 
+[Conceptos básicos de HTTP](http.md)
 [Pastel de Flask](flask.md)
 
 
