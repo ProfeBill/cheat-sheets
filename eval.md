@@ -63,8 +63,8 @@
 - [ ] Funcionalidad Web para Insertar 
 - [ ] Funcionalidad Web para Modificar
 - [ ] Menú de Inicio para acceder a las funcionalidades
-- [ ] Aplicación publicada en la Web
-- [ ] Pruebas Unitarias siguen pasando completas
-- [ ] Instrucciones en el README para ejecutar la aplicación localmente y con una base de datos en blanco
 - [ ] Opción en el Menú para crear las tablas de la BD
+- [ ] Instrucciones en el README para ejecutar la aplicación localmente y con una base de datos en blanco
+- [ ] Pruebas Unitarias siguen pasando completas
 - [ ] Estructura de Carpetas MVC implementada con Blueprits de Flask
+- [ ] Aplicación publicada en la Web
