@@ -32,7 +32,7 @@ Se requiere una aplicación que calcule el valor esperado de la pensión para un
 
 ### Calculadora de Ahorro Programado
 
-Se requiere una aplicación que permita conocer el valor que recibirá una persona que suscriba un ahorro programado al final del periodo de tiempo pactado, discrimiando capital e intereses. La aplicación de permitir además realizar abonos extras en el tiempo y cantidad que el ahorrador desee.
+Se requiere una aplicación que permita conocer el valor que debe ahorrar mensualmente una persona que suscriba un ahorro programado al final del periodo de tiempo pactado, para alcanzar una meta de ahorro. La aplicación de permitir además realizar abonos extras en el tiempo y cantidad que el ahorrador desee.
 
 ###	Calculadora de Impuestos
 
