@@ -32,16 +32,16 @@
 ## Tema 3 : Interfaz de Usuario Gráfica
 
 - [ ] Fork del proyecto recibido y reportado en la UVirtual
-- [ ] Funcionalidad básica implementada en GUI
-- [ ] Actualizado README con integrantes del equipo e instrucciones para ejecutar GUI
-- [ ] Control de excepciones y mensajes de error amigables
 - [ ] Revisado el código del proyecto que reciben para la siguiente entrega
 - [ ] Corregidos los Issues que les reporta el equipo que recibe para la siguiente entrega
-- [ ] Ejecutable para Windows generado
-- [ ] App para Android o iOS generada
+- [ ] Actualizado README con integrantes del equipo e instrucciones para ejecutar GUI
+- [ ] Funcionalidad básica implementada en GUI
+- [ ] Control de excepciones y mensajes de error amigables
 - [ ] Código Limpio aplicado
 - [ ] Pruebas Unitarias siguen ejecutando 
-
+- [ ] Ejecutable para Windows generado
+- [ ] App para Android o iOS generada
+      
 ## Tema 4 : Bases de Datos Relacionales
 
 - [ ] Instrucciones en el README para crear la base de datos, realizar la conexión y ejecutar el programa, secret_config.py con instrucciones de uso y no contiene datos privados
