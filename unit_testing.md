@@ -1,5 +1,7 @@
 # Pastel de Pruebas Unitarias
 
+La Documentación completa del Framework unittest la puede encontrar en: https://docs.python.org/3/library/unittest.html
+
 ## Pasos de una prueba
 - Establezca las variables de entrada con los valores del caso de prueba
 - Establezca el valor esperado de las variables de salida
@@ -70,6 +72,7 @@ Puede usar cualquiera de los siguientes métodos, dependiendo de la condición q
 
   # Prueba que una variable NO sea instancia de un tipo
   assertNotIsInstance(a, b)
+```
 
 ## Control de Excepciones en los casos de error
 
