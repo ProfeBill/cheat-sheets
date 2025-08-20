@@ -26,13 +26,19 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 ## Tema 2 : Código Limpio
 
+[Pastel de Arquiectura MVC](mvc.md)
+
+[Uncle Bob Clean Code Video](https://youtu.be/7EmboKQH8lM)
+
+[Código Limpio En Español por Felipe Gavilán](https://youtu.be/f5mgLVstU1I?list=PL0kIvpOlieSPI2p6VAy8EdCY6dZNgyi8V)
+
 [Pastel de Código Limpio en Python](clean_code.md)
 
 [Libro completo en Inglés](https://github.com/media-lib/prog_lib/blob/master/general/Robert%20Martin%20-%20Clean%20Code.pdf)
 
 [Libro completo en Español](https://doku.pub/documents/martin-robert-c-codigo-limpiopdf-7l5r53vv7zqk)
 
-[Pastel de Arquiectura MVC](mvc.md)
+[Pythonic Code](https://www.codementor.io/blog/pythonic-code-6yxqdoktzt)
 
 [Zen of Python](https://elpythonista.com/zen-de-python)
 
