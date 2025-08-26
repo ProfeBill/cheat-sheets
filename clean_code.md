@@ -44,7 +44,7 @@ No trates de inventar tus propias abreviaturas. Es mejor que una variable tenga 
 pn = 'Bob'
 fc = 1621535852
 
-# Estp está bien
+# Esto está bien
 primer_nombre = 'Bob'
 fecha_creacion = 1621535852
 ```
@@ -112,9 +112,38 @@ class Persona:
 ```
 Ya estamos dentro de la clase Persona, por lo que no es necesario agregar un prefijo a cada variable de clase "_persona"
 
-### 9. Estándares
+### 9. Evite números en nombres de variables
+
+Si una variable tiene un número en el nombre, posiblemente signifique que es mejor utilizar un array 
+
+```
+# Esto está mal
+
+pos1 = 34
+pos2 = 5
+pos3 = 89
+
+# Esto está bien
+
+posiciones = [ 34, 5, 89 ]
+
+```
+
+
+### 10. Estándares
 
 Escriba los nombres de variables en Minúsculas y Utilice guión bajo _ (underscore) para separar las palabras.
+
+
+```
+# Esto está mal
+PrimerNombre = 'Bob'
+fechaCreacion = 1621535852
+
+# Esto está bien
+primer_nombre = 'Bob'
+fecha_creacion = 1621535852
+```
 
 
 ## Funciones
