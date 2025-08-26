@@ -35,7 +35,7 @@ from datetime import datetime
 genyyyymmddhhmmss = datetime.strptime('04/27/95 07:14:22', '%m/%d/%y %H:%M:%S')
 
 # Esto está bien
-generar_fecha_y_hora = datetime.strptime('04/27/95 07:14:22', '%m/%d/%y %H:%M:%S')
+fecha_y_hora_generados = datetime.strptime('04/27/95 07:14:22', '%m/%d/%y %H:%M:%S')
 ```
 ### 4. Evita el uso de abreviaturas ambiguas
 No trates de inventar tus propias abreviaturas. Es mejor que una variable tenga un nombre más largo que un nombre confuso.
@@ -69,7 +69,7 @@ def roll():
     return random.randint(0, 36)  # ¿qué se supone que representa el 36?
 
 # Esto está bien
-ID_ESTUDIANTES = 36
+CONTADOR_ESTUDIANTES = 36
 
 def roll():
     return random.randint(0, ID_ESTUDIANTES)
@@ -111,6 +111,11 @@ class Persona:
         self.edad = edad
 ```
 Ya estamos dentro de la clase Persona, por lo que no es necesario agregar un prefijo a cada variable de clase "_persona"
+
+### 9. Estándares
+
+Escriba los nombres de variables en Minúsculas y Utilice guión bajo _ (underscore) para separar las palabras.
+
 
 ## Funciones
 ### 1. Usar verbos para los nombres de las funciones
@@ -209,8 +214,41 @@ texto_minuscula = minuscula(texto)
 ### 7. Evita los efectos secundarios
 Una función produce un efecto secundario si hace cualquier cosa que no sea tomar un valor y devolver otro valor o valores. Por ejemplo, un efecto secundario podría ser escribir en un archivo o modificar una variable global.
 
+### 8. Estándares
+
+- Utiliza siempre minúsculas para los nombres de las funciones y usa underscores _ para separar palabras
+- Utiliza parámetros nombrados para invocar funciones y evitar Magic Literals
+- Al declarar las funciones, utiliza siempre pistas de tipo
+
+```python
+
+# Esto está mal
+def transformar(texto, mayuscula):
+    if mayusculas:
+        return text.upper()
+    else:
+        return text.lower()
+
+texto_mayuscula = transformar(texto, True)
+texto_minuscula = transformar(texto, False)
+
+
+# Esto está bien
+def mayuscula(texto : str):
+    return text.upper()
+
+def minuscula(texto : str):
+    return text.lower()
+
+texto_mayuscula = mayuscula(texto = "Convierteme a Mayuscula" )
+texto_minuscula = minuscula(texto = "QUIERO SER MINUSCULA" )
+```
+
+
+
 ## Comentarios
 No importa cuánto intentemos escribir código limpio, todavía habrá partes de su programa que necesiten una explicación adicional. Los comentarios nos permiten decirle rápidamente a otros desarrolladores (y a nosotros mismos del futuro) por qué lo escribimos de la manera en que lo hicimos. Ten en cuenta que agregar demasiados comentarios puede hacer que tu código sea más desordenado de lo que sería sin ellos.
+
 ### 1. No comentes un código malo, reescríbelo
 Comentar el código incorrecto, es decir, solo te ayuda a corto plazo. Tarde o temprano, uno de tus colegas tendrá que trabajar con tu código y terminará reescribiéndolo después de pasar varias horas tratando de averiguar qué hace.
 
@@ -224,6 +262,7 @@ if not User.objects.filter(id=user_id).exists():
     })
 ```
 Como regla general, si necesita agregar comentarios, deben explicar "por qué" hizo algo en lugar de "qué" está sucediendo.
+
 ### 3. No agregues comentarios de ruido
 No agregues comentarios que no agreguen nada de valor al código. Esto es malo:
 ```python
