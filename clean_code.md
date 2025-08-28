@@ -112,9 +112,6 @@ class Persona:
 ```
 Ya estamos dentro de la clase Persona, por lo que no es necesario agregar un prefijo a cada variable de clase "_persona"
 
-<<<<<<< HEAD
-### 9. Estándares
-=======
 ### 9. Evite números en nombres de variables
 
 Si una variable tiene un número en el nombre, posiblemente signifique que es mejor utilizar un array 
@@ -134,13 +131,10 @@ posiciones = [ 34, 5, 89 ]
 
 
 ### 10. Estándares
->>>>>>> 4906440f2dbf2bec2acbefff757b141791f73540
 
 Escriba los nombres de variables en Minúsculas y Utilice guión bajo _ (underscore) para separar las palabras.
 
 
-<<<<<<< HEAD
-=======
 ```
 # Esto está mal
 PrimerNombre = 'Bob'
@@ -152,7 +146,6 @@ fecha_creacion = 1621535852
 ```
 
 
->>>>>>> 4906440f2dbf2bec2acbefff757b141791f73540
 ## Funciones
 ### 1. Usar verbos para los nombres de las funciones
 ### 2. No utilices palabras diferentes para el mismo concepto
