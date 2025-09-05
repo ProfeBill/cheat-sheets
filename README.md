@@ -30,7 +30,7 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Pastel de Arquitectura MVC](mvc.md)
 
-[Pastel de Comandos en Windows](dos.cmd)
+[Pastel de Comandos en Windows](dos.md)
 
 [Uncle Bob Clean Code Video](https://youtu.be/7EmboKQH8lM)
 
