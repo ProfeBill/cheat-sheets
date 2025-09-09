@@ -32,11 +32,11 @@
 ## Tema 3 : Interfaz de Usuario Gráfica
 
 - [ ] Fork del proyecto recibido y reportado en la UVirtual
-- [ ] Revisado el código del proyecto que reciben para la siguiente entrega
-- [ ] Corregidos los Issues que les reporta el equipo que recibe para la siguiente entrega
 - [ ] Actualizado README con integrantes del equipo e instrucciones para ejecutar GUI
 - [ ] Funcionalidad básica implementada en GUI
-- [ ] Control de excepciones y mensajes de error amigables
+- [ ] Funcionalidad extra en GUI
+- [ ] Control de excepciones, mensajes de error amigables
+- [ ] interfaz de usuario amigables
 - [ ] Código Limpio aplicado
 - [ ] Pruebas Unitarias siguen ejecutando 
 - [ ] Ejecutable para Windows generado
