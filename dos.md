@@ -13,18 +13,14 @@
 
 ## Comandos
 
-| Tarea                              | CMD            | PowerShell      | Linux          |
-|------------------------------------|----------------|-----------------|----------------|
-| Ver la lista de archivos en la     | `dir`          | `dir`           | `ls`           |
-| carpeta actual                     |                |                 |                | 
-|------------------------------------|----------------|-----------------|----------------|
-| Ver el contenido de un archivo     | `type <file>`  | `type <file>`   | `cat <file>`   |
-|------------------------------------|----------------|-----------------|----------------|
-| Limpiar la ventana de comandos     | `cls`  ----    | `cls`           | `clear`        |
-|------------------------------------|----------------|-----------------|----------------|
-| Cambiar de carpeta                 | `cd <folder>`  | `cd <folder>`   | `cd <folder>`  |
-|------------------------------------|----------------|-----------------|----------------|
-| Ver las rutas de busqueda PATH     | `PATH`         | `$env:PATH`     | `echo $PATH`   |
-|------------------------------------|----------------|----------------------|------------------|
-| Encontrar la ruta desde donde corre| `where python` | `Get-Command python` | `whereis python` |
-| Python                             | `where py`     | `Get-Command py`     | `whereis py`     |
+|  Tarea                               |  CMD             |  PowerShell       | Linux           |
+| ------------------------------------ | ---------------- | ----------------- |---------------- |
+|  Ver la lista de archivos en la      |  `dir`           |  `dir`            | `ls`            |
+|  carpeta actual                      |                  |                   |                 | 
+|  Ver el contenido de un archivo      |  `type <file>`   |  `type <file>`    | `cat <file>`    |
+|  Limpiar la ventana de comandos      |  `cls`  ----     |  `cls`            | `clear`         |
+|  Cambiar de carpeta                  |  `cd <folder>`   |  `cd <folder>`    | `cd <folder>`   |
+|  Ver las rutas de busqueda PATH      |  `PATH`          |  `$env:PATH`      | `echo $PATH`    |
+|  Encontrar la ruta desde donde corre |  `where python`  |  `(Get-Command python).Path`  |  `whereis python`  |
+|  Python                              |  `where py`      |  `(Get-Command py).Path`      |  `whereis py`      |
+|  Encontrar la ruta de pip            |  `where pip`     |  `(Get-Command pip).Path`     |  `whereis pip`     |
