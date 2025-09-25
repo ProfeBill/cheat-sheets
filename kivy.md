@@ -1,5 +1,44 @@
 # Kivy
 
+## Compilación del EXE para Windows
+
+### Prerrequisitos
+
+* Instalar pyinstaller
+
+```
+pip install -U pyinstaller
+```
+
+* Asegurese de que el archivo principal que ejecuta su aplicación se encuentre en la carpeta raiz del repositorio (junto al README).
+
+Una forma elegante de hacerlo, es crear un archivo que simplemente importe al archivo principal del GUI dentro de la carpeta src/view/model
+
+```
+import sys
+sys.path.append( "src" )
+
+from view.gui.payment_gui import PaymentApp
+
+PaymentApp().run()
+```
+
+### Compilación
+
+Compile su programa como un solo exe de Windows con este comando:
+
+```
+pyinstaller -F --paths=src [MI PROGRAMA PRINCIPAL EN LA CARPETA RAIZ].py
+```
+
+Asegúrese de utilizar la opción -F o --onefile para generar un solo archivo ejecutable y 
+la opción `--paths=src` para que el compilador busque dentro de la carpeta `src`
+
+El ejecutable quedará ubicado dentro de la carpeta dist de su repositorio
+
+Asegúrese de agregar las carpetas `dist` y `build` al `.gitignore` para evitar que el repositorio se llene de basura.
+
+
 ## Compilación del APK para Android
 
 ### Prerrequisitos
