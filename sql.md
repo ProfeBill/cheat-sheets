@@ -14,6 +14,15 @@
 * Neon.tech Cuenta gratuita por 3 meses : https://neon.tech/
 * Descargar PostgreSQL local : https://www.postgresql.org/download/
 
+## Postgresql Portable
+* Descargue desde https://github.com/garethflowers/postgresql-portable/releases/
+* Desempaque el ZIP y ejecute `PostgreSQLPortable.exe`
+* Cree una nueva conexión con los siguientes datos:
+  * host: localhost
+  * user: postgres
+  * password: postgres
+  * database: postgres
+
 ## Ejercicios
 
 * Tablas de Municipios : https://github.com/ProfeBill/database-01/tree/main/sql
