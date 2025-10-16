@@ -49,11 +49,11 @@
 - [ ] Creadas clases de Controller
 - [ ] Test Fixtures para crear tablas
 - [ ] 3 Casos de prueba para insertar creados y pasando exitosamente
-- [ ] 3 Casos de prueba para modificar creados y pasando exitosamente
 - [ ] 3 Casos de prueba para buscar creados y pasando exitosamente
 - [ ] Funcionalidad en la Interfaz de Usuario para Insertar Datos
-- [ ] Funcionalidad en la Interfaz de Usuario para Modificar Datos
 - [ ] Funcionalidad en la Interfaz de Usuario para Buscar Datos
+- [ ] 3 Casos de prueba para modificar creados y pasando exitosamente
+- [ ] Funcionalidad en la Interfaz de Usuario para Modificar Datos
 
 
 ## Tema 5 : Aplicación Web
