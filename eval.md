@@ -58,7 +58,7 @@
 
 ## Tema 5 : Aplicación Web
 
-- [ ] Fork del Proyecto recibido creado y reportado en la entrega en la U Virtual
+- [ ] Funcionalidad Web principal de la aplicación, según la asignación de proyectos
 - [ ] Funcionalidad Web para Buscar
 - [ ] Funcionalidad Web para Insertar 
 - [ ] Funcionalidad Web para Modificar
