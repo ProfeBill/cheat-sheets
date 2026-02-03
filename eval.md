@@ -1,6 +1,5 @@
 # Plan de Evaluaciones Lenguajes de Programación y Código Limpio
 
-[![Esquema de Entregas](https://mermaid.ink/img/pako:eNp9Ut9r2zAQ_leOe50b7MR2bT0UtjaBPaV0bIPhl6t9ccVsKTtLsCzkf58cZ00KWYUedN-Pu09Ce6xtw6hw4F-eTc0PmlqhvjIQFtXOCjyK3fAEbEmcrvWWjIM10ABr0a021AEbJ9wSJBHMYQfppK-FyfEb22q0raz8hOXJsqjMpF7f3N19WKkjOyGrEVkrePRdB09jxMG91T7x1oojgc_DENizLXD3VoTrWltzSVxtNxLHe6rXWF_hmxbnqTsPDNaP7UgKbLwZG1OnG2rgEw0MDcMDOTuc9e93vPI4y-xsXmaXL7HMTtD1AN_5-UL3_7kYYSu6QeXEc4Q9S09jifvRXqF74Z4rVOHY8IZ85yqszCHYQr4f1vb_nGJ9-4JqQ90QKr9twlVOf-cVFTYNy731xqFK4vLYBNUef4eymJVFmiflPIvTIuwId6hukiyZLW7LeVzkaVJmt0V-iPDPcW48K9NRuVgURRyXcZ5HSN7ZLztTT6kOfwEwt9_u?type=png)](https://mermaid.live/edit#pako:eNp9Ut9r2zAQ_leOe50b7MR2bT0UtjaBPaV0bIPhl6t9ccVsKTtLsCzkf58cZ00KWYUedN-Pu09Ce6xtw6hw4F-eTc0PmlqhvjIQFtXOCjyK3fAEbEmcrvWWjIM10ABr0a021AEbJ9wSJBHMYQfppK-FyfEb22q0raz8hOXJsqjMpF7f3N19WKkjOyGrEVkrePRdB09jxMG91T7x1oojgc_DENizLXD3VoTrWltzSVxtNxLHe6rXWF_hmxbnqTsPDNaP7UgKbLwZG1OnG2rgEw0MDcMDOTuc9e93vPI4y-xsXmaXL7HMTtD1AN_5-UL3_7kYYSu6QeXEc4Q9S09jifvRXqF74Z4rVOHY8IZ85yqszCHYQr4f1vb_nGJ9-4JqQ90QKr9twlVOf-cVFTYNy731xqFK4vLYBNUef4eymJVFmiflPIvTIuwId6hukiyZLW7LeVzkaVJmt0V-iPDPcW48K9NRuVgURRyXcZ5HSN7ZLztTT6kOfwEwt9_u)
 
 ## Tema 1 : Pruebas Unitarias
 
@@ -56,9 +55,9 @@
 - [ ] Funcionalidad en la Interfaz de Usuario para Modificar Datos
 
 
-## Tema 5 : Aplicación Web
+## Entrega Final : Aplicación Web
 
-- [ ] Funcionalidad Web principal de la aplicación, según la asignación de proyectos
+- [ ] Funcionalidad Web principal de la aplicación
 - [ ] Funcionalidad Web para Buscar
 - [ ] Funcionalidad Web para Insertar 
 - [ ] Funcionalidad Web para Modificar
@@ -66,5 +65,5 @@
 - [ ] Opción en el Menú para crear las tablas de la BD
 - [ ] Instrucciones en el README para ejecutar la aplicación localmente y con una base de datos en blanco
 - [ ] Pruebas Unitarias siguen pasando completas
-- [ ] Estructura de Carpetas MVC implementada con Blueprits de Flask
+- [ ] Estructura de Carpetas MVC implementada con Blueprints de Flask
 - [ ] Aplicación publicada en la Web
