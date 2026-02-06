@@ -42,6 +42,16 @@ Se requiere una aplicación que calcule la declaración de renta para un asalari
 
 Se requiere una aplicación que calcule la cuota mensual que el banco pagaría a una persona que tome una hipoteca inversa
 
+###	Impuestos de Venta
+
+Se requiere una aplicación que calcule el valor a pagar por una compra, discriminando los impuestos que deben pagarse, según la naturaleza del artículo.
+
+Los impuestos pueden ser:
+- Exento o Excluido (no paga ningun impuesto)
+- IVA (del 5% o 19%)
+- Impuesto Nacional al Consumo (INC)
+- Impuesto de rentas a los licores
+- Impuesto de Bolsas Plásticas
 
 ### Simulador de Credito Educativo
 
