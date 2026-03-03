@@ -34,7 +34,7 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Uncle Bob Clean Code Video](https://youtu.be/7EmboKQH8lM)
 
-[Código Limpio En Español por Felipe Gavilán](https://youtu.be/f5mgLVstU1I?list=PL0kIvpOlieSPI2p6VAy8EdCY6dZNgyi8V)
+[Código Limpio En Español DevExpert](https://www.youtube.com/watch?v=7WDTXou6ctk)
 
 [Libro completo en Inglés](https://github.com/media-lib/prog_lib/blob/master/general/Robert%20Martin%20-%20Clean%20Code.pdf)
 
