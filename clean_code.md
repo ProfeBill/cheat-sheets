@@ -2,6 +2,14 @@
 
 Inspirado en https://testdriven.io/blog/clean-code-python/ 
 
+## La regla fundamental del buen nombre
+
+Poner el nombre correcto a las cosas es la primera responsabilidad de un programador profesional.
+
+Una vez asignado un nombre y utilizado dentro de un proyecto, será muy dificil querer cambiarlo luego y no podrá hacerse sin dolor. Para mantener limpio el código, muy seguramente el primer refactoring que se le aplique sea verificar si los nombres utilizados son los adecuados.
+
+Un buen nombre debe ser la respuesta a esta pregunta: *¿Para qué sirve esto?*
+
 ## Nombres
 Uno de los aspectos más importantes de escribir código limpio son las convenciones de nomenclatura. Siempre debes usar nombres significativos y que revelen la intención. Siempre es mejor usar nombres largos y descriptivos que nombres cortos con comentarios.
 
