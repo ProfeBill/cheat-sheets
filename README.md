@@ -44,6 +44,7 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Zen of Python](https://elpythonista.com/zen-de-python)
 
+[Softensity Clean Code Cheat Sheet](https://www.softensity.com/blog/clean-code-cheat-sheet/)
 
 ## Tema 3 : Interfaz de Usuario Gráfica
 
