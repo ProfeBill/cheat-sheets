@@ -67,7 +67,7 @@ apellido_comprador = 'Smith'
 primer_nombre_cliente = 'Bob'
 apellido_cliente = 'Smith'
 ```
-### 6. No uses "números mágicos" / magic numbers
+### 6. No uses "números mágicos" ni "literales mágicos" / magic literals
 Los números mágicos son números extraños que aparecen en un código, que no tienen un significado claro. Veamos un ejemplo:
 ```python
 import random
@@ -80,7 +80,7 @@ def roll():
 CONTADOR_ESTUDIANTES = 36
 
 def roll():
-    return random.randint(0, ID_ESTUDIANTES)
+    return random.randint(0, CONTADOR_ESTUDIANTES)
 ```
 En lugar de usar números mágicos, podemos extraerlos en una variable significativa.
 
