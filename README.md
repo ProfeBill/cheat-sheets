@@ -30,7 +30,7 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Pastel de Arquitectura MVC](mvc.md)
 
-[Pastel de Comandos en Windows](dos.md)
+[Pastel de Comandos en Windows y Linux](dos.md)
 
 [Uncle Bob Clean Code Video](https://youtu.be/7EmboKQH8lM)
 
@@ -50,7 +50,9 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Buenas prácticas](gui.md)
 
-[Pastel para compilar aplicaciones Kivy en Android](kivy.md)
+[Pastel para compilar aplicaciones Kivy en Android y en Windows](kivy.md)
+
+[Pastel de Comandos en Windows y Linux](dos.md)
 
 ## Tema 4 : Bases de Datos Relacionales
 
