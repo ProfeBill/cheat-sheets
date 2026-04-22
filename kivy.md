@@ -100,7 +100,7 @@ buildozer -v android debug
 # Una vez compilado, el APK queda almacenado en la carpeta bin, para ver el archivo resultante :
 ls bin
 # Puede copiarlo a la partición Windows
-cp bin/profetriki-0.1-arm64-v8a_armeabi-v7a-debug.apk /mnt/c/carpeta_destino_en_winodws
+cp bin/profetriki-0.1-arm64-v8a_armeabi-v7a-debug.apk /mnt/c/carpeta_destino_en_windows
 ```
 
 
@@ -108,3 +108,4 @@ cp bin/profetriki-0.1-arm64-v8a_armeabi-v7a-debug.apk /mnt/c/carpeta_destino_en_
 
 - Lea la documentación oficial, use IA solo si tiene problemas y necesita sugerencias
 - No compile en virtualenv
+- **Asegúrese de agregar las carpetas `build` y  `dist` al `.gitignore` para evitar que se suban al repositorio archivos innecesarios**
