@@ -38,8 +38,8 @@
 - [ ] interfaz de usuario amigables
 - [ ] Código Limpio aplicado
 - [ ] Pruebas Unitarias siguen ejecutando 
-- [ ] Ejecutable para Windows generado
-- [ ] App para Android o iOS generada
+- [ ] Ejecutable para Windows generado y Publicado como un Release en Github
+- [ ] App para Android o iOS generada y Publicada como un Release en Github
       
 ## Tema 4 : Bases de Datos Relacionales
 
