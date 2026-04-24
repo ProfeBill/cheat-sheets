@@ -56,6 +56,12 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 ## Tema 4 : Bases de Datos Relacionales
 
+[Mapa Mental de Conceptos de Bases de Datos](https://app.xmind.com/share/N1xZS5uT)
+
+[Primeros Pasos para crear la BD](database.md)
+
+[Repositorio ejemplo](https://github.com/ProfeBill/database-01)
+
 [Pastel de SQL](sql.md)
 
 [Lista de Chequeo para Construir funcionalidades con Bases de Datos y MVC](mvc-checklist.md)
