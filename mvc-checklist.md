@@ -1,5 +1,7 @@
 # Lista de Chequeo para Agregar una Nueva funcionalidad con MVC y bases de datos
 
+[Mapa Mental Arquitectura MVC](https://app.xmind.com/share/bJfNQBBR)
+
 - [ ] Tenga definidos los campos de la tabla, que también serán los atributos de la clase
 - [ ] Escriba el script de creación de la Tabla y ejecutelo en la BD
 - [ ] Pruebe a insertar un registro, buscarlo, actualizarlo  y borrarlo con SQL y conserve los scripts
