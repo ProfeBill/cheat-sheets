@@ -43,16 +43,16 @@
       
 ## Tema 4 : Bases de Datos Relacionales
 
-- [ ] Instrucciones en el README para crear la base de datos, realizar la conexión y ejecutar el programa, secret_config.py con instrucciones de uso y no contiene datos privados
+- [ ] Instrucciones en el README para crear la base de datos, realizar la conexión y ejecutar el programa
+- [ ] secret_config_sample.py con instrucciones de uso y no contiene datos privados en secret_config.py
 - [ ] Creadas clases de Model  
-- [ ] Creadas clases de Controller
+- [ ] Funcionalidad en el Controller para insertar
+- [ ] Funcionalidad en el Controller para buscar
+- [ ] Funcionalidad en el Controller para borrar y crear las tablas
 - [ ] Test Fixtures para crear tablas
-- [ ] 3 Casos de prueba para insertar creados y pasando exitosamente
-- [ ] 3 Casos de prueba para buscar creados y pasando exitosamente
+- [ ] 5 Casos de prueba para insertar y buscar, creados y pasando exitosamente
 - [ ] Funcionalidad en la Interfaz de Usuario para Insertar Datos
 - [ ] Funcionalidad en la Interfaz de Usuario para Buscar Datos
-- [ ] 3 Casos de prueba para modificar creados y pasando exitosamente
-- [ ] Funcionalidad en la Interfaz de Usuario para Modificar Datos
 
 
 ## Entrega Final : Aplicación Web
