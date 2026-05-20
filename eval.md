@@ -60,10 +60,10 @@
 - [ ] Funcionalidad Web principal de la aplicación
 - [ ] Funcionalidad Web para Buscar
 - [ ] Funcionalidad Web para Insertar 
-- [ ] Funcionalidad Web para Modificar
 - [ ] Menú de Inicio para acceder a las funcionalidades
 - [ ] Opción en el Menú para crear las tablas de la BD
 - [ ] Instrucciones en el README para ejecutar la aplicación localmente y con una base de datos en blanco
 - [ ] Pruebas Unitarias siguen pasando completas
 - [ ] Estructura de Carpetas MVC implementada con Blueprints de Flask
 - [ ] Aplicación publicada en la Web
+- [ ] Sustentación en el aula
