@@ -21,6 +21,10 @@
 
 Se requiere una aplicación que calcule el total a pagar a un empleado que trabaja para una empresa, el cual corresponde a la diferencia entre los valores devengados y las deducciones de ley que le aplican
 
+### Liquidador de incapacidades
+
+Se requiere una aplicación que calcule el valor a pagar a un trabajador por un periodo de incapacidad laboral, teniendo en cuenta el tipo de incapacidad y su duración
+
 
 ###	Calculadora de Liquidación definitiva
 
@@ -34,13 +38,13 @@ Se requiere una aplicación que calcule el valor esperado de la pensión para un
 
 Se requiere una aplicación que permita conocer el valor que debe ahorrar mensualmente una persona que suscriba un ahorro programado al final del periodo de tiempo pactado, para alcanzar una meta de ahorro, en una entidad financiera que pague una tasa de interés fija por el valor ahorrado. La aplicación de permitir además realizar un abono extra en la última cuota por la cantidad que el ahorrador desee.
 
-###	Calculadora de Impuestos
+###	Calculadora de declaración de renta
 
 Se requiere una aplicación que calcule la declaración de renta para un asalariado
 
-###	Cálculadora de Hipoteca Inversa
+### Calculadora de retenciones
 
-Se requiere una aplicación que calcule la cuota mensual que el banco pagaría a una persona que tome una hipoteca inversa
+se requiere una aplicación que permita a una Empresa calcular las retenciones de impuestos que debe realizar cuando va a pagar una factura a un proveedor
 
 ###	Impuestos de Venta
 
@@ -57,3 +61,7 @@ Los impuestos pueden ser:
 
 Se requiere una aplicación que le permita a un estudiante saber cuál es la cuota mensual que deberá pagar a futuro si toma un crédito educativo (tipo Icetex)
 con periodo de gracia y en la modalidad de Largo Plazo (todos los pagos se hacen después de graduarse)
+
+###	Calculadora de Hipoteca Inversa
+
+Se requiere una aplicación que calcule la cuota mensual que el banco pagaría a una persona que tome una hipoteca inversa
