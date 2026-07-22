@@ -92,7 +92,9 @@ La IA no es el genio de la lámpara, es un empleado barato recién contratado, e
 * No le pida que escriba el código fuente de algo que usted no sabe hacer en papel
 * Antes de empezar, tenga escritas las pruebas que usará para verificar si hizo bien su trabajo
 * Divida el trabajo en tareas pequeñas, fáciles de hacer, fáciles de verificar
-
+* No conserve nada que usted no entienda como funciona, o no pueda mejorar después si tiene que modificarlo
+* Aproveche lo barato de la IA, para volver a empezar desde cero, cada vez que descubra que había una forma mejor y más simple de hacer las cosas
+* Piense en todas las formas en que su nueva creación puede fallar, y escriba nuevas pruebas por cada una de ellas
 ---
 # De regreso a los problemas
 
@@ -102,34 +104,13 @@ La IA no es el genio de la lámpara, es un empleado barato recién contratado, e
 
 ![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Intel_Xeon_3060_Conroe_%28Reshoot%29_-_Flickr_-_cole8888.jpg/500px-Intel_Xeon_3060_Conroe_%28Reshoot%29_-_Flickr_-_cole8888.jpg)
 
-
 ---
 
-# Características de un buen componente
+![bg center 80%](img/wbs.jpg)
 
-* _Simple_ : Tiene el mínimo de componentes para cumplir su propósito
-* _Reutilizable_ : Puede ser utilizado para resolver el mismo problema dentro de otros sistemas
-* _Verificable_ : Es posible construir otros componentes para verificar que entregue los resultados correctos 
-* _Documentado_ : Está acompañado de la documentación necesaria para que otras personas puedan reutilizarlo o mejorarlo 
-
----
-
-# Recomendaciones
-
-- No conserve nada que usted no entienda como funciona, o no pueda mejorar después si tiene que modificarlo
-- Aproveche lo barato de la IA, para volver a empezar desde cero, cada vez que descubra que había una forma mejor y más simple de hacer las cosas
-- Piense en todas las formas en que su nueva creación puede fallar, y escriba nuevas pruebas por cada una de ellas
 
 ---
 
 # Finalmente, recuerde: 
 
 La IA aprendió todo lo que sabe resolviendo problemas, cada problema que ella resuelve por usted, es una habilidad que ella gana y una que usted deja de ganar
-
-https://nandgame.com/
-
-https://madformath.com/calculators/digital-systems/combinational-logic/full-adder-learning-tool 
-
-
-Full adder: CircuitVerse - Binary Adders 
-4 bit adder: CircuitVerse - Digital Circuit Simulator online 
