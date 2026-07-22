@@ -12,6 +12,8 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Introducción al Curso Lenguajes de Programación y Código Limpio](intro.md)
 
+[Las tres verdades dolorosas del oficio de programador](truths.md)
+
 [Plan General de Evaluaciones del Curso](eval.md)
 
 [Opciones de Proyecto de Aula](projects.md)

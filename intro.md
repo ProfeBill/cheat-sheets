@@ -24,14 +24,15 @@ Github: https://github.com/ProfeBill
 
 ## Entregas Proyecto de Aula
 
-* Seguimiento 1 : 35%  (Marzo 27)
+* Seguimiento 1 : 35%  (Septiembre 4)
     * Tema 1 : Pruebas Unitarias 17.5%
     * Tema 2 : Código Limpio 17.5%
-* Seguimiento 2 : 40% (Mayo 23)
+* Seguimiento 2 : 40% (Octubre 23)
     * Tema 3 : Interfaz Gráfica 20%
     * Tema 4 : Bases de Datos 20%
 * Evento Evaluativo Final : 25%
     * Entrega Final : Aplicación web
+
 ---
 
 # Condiciones del Proyecto de Aula
@@ -43,6 +44,10 @@ Github: https://github.com/ProfeBill
 - usando las variables y las fórmulas suministradas por el experto deberán construir un libro de Excel con al lo menos 10 casos de prueba del problema
 -	El equipo debe tener un repositorio en GitHub, donde hacen la entrega, y en la UVirtual van a suministrar la URL del proyecto
 
+---
+
+# Hora de Elegir Representante del Curso
+    
 
 ---
 
@@ -58,37 +63,73 @@ Github: https://github.com/ProfeBill
 
 ---
 
-# Las tres verdades dolorosas del oficio de programador
-
-![bg right w:80%](img/getbetter.jpg)
-
-Construir software implica tomar decisiones todo el tiempo. Estas tres verdades son una colección de sabiduría adquirida con la experiencia, que pretenden ayudarles a decidir bien.
+# Paréntesis: ¿Nos podemos ir? Es que la IA resuelve los problemas por nosotros.
 
 ---
 
-## Los computadores no hacen lo que uno quiere, sino lo que uno les dice
+# Inteligencia Artificial vs Brutalidad Natural
 
-![bg right w:80%](img/desires.jpeg)
+La IA no es el genio de la lámpara, es un empleado barato recién contratado, eso significa que: 
+* Usted debe ser más inteligente
+* Usted debe darle límites e instrucciones claras
+* Usted debe verificar si hizo bien el trabajo
+* Usted debe pagarle por su trabajo
 
-Cualquiera puede soñar con que el computador haga lo que desea, pero para lograr que lo haga se necesita plasmar los deseos en forma de ordenes objetivas.
+--- 
+
+# La característica más peligrosa de la IA: **Complaciente**
+
+* Nunca le va a contestar: No sé 
+* Nunca va a decirle: Estás equivocado
+* Solo va a admitir que se equivocó cuando usted lo corrija, incluso si tenía la razón
+
+![bg right 70%](img/complaciente.jpg)
 
 ---
 
-## Un programa es una colección de errores corregidos, qué en el mejor de los casos funciona
+# Principios de Seguridad
 
-![bg right w:80%](img/mistakes.jpeg)
+* No le pida que escriba el código fuente de algo que usted no sabe hacer en papel
+* Antes de empezar, tenga escritas las pruebas que usará para verificar si hizo bien su trabajo
+* Divida el trabajo en tareas pequeñas, fáciles de hacer, fáciles de verificar
 
-El error no es fracaso, es solo estar un paso más cerca del objetivo.
+---
+# De regreso a los problemas
 
-El orgullo nos impulsa a negar nuestros errores, pero solo podemos corregirlos aceptándolos, enfrentándolos y persistiendo, incluso cuando el programa sigue sin funcionar.
+[Cómo hacer un computador desde cero](https://circuitverse.org/simulator/4-bit-binary-adder-final-v3)
+
+![left 70%](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Si-polvo.jpg/500px-Si-polvo.jpg)
+
+![bg right 80%](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Intel_Xeon_3060_Conroe_%28Reshoot%29_-_Flickr_-_cole8888.jpg/500px-Intel_Xeon_3060_Conroe_%28Reshoot%29_-_Flickr_-_cole8888.jpg)
+
 
 ---
 
-## Las soluciones de hoy, son los problemas de mañana
+# Características de un buen componente
 
-![bg right w:80%](img/solutions.jpeg)
+* _Simple_ : Tiene el mínimo de componentes para cumplir su propósito
+* _Reutilizable_ : Puede ser utilizado para resolver el mismo problema dentro de otros sistemas
+* _Verificable_ : Es posible construir otros componentes para verificar que entregue los resultados correctos 
+* _Documentado_ : Está acompañado de la documentación necesaria para que otras personas puedan reutilizarlo o mejorarlo 
 
-Siempre habrán dos formas de hacer las cosas: una fácil y otra correcta.
+---
 
-La fácil parece costar menos esfuerzo al principio, pero con el tiempo va a requerir mas esfuerzo para corregir lo que no se hizo bien desde el principio.
+# Recomendaciones
 
+- No conserve nada que usted no entienda como funciona, o no pueda mejorar después si tiene que modificarlo
+- Aproveche lo barato de la IA, para volver a empezar desde cero, cada vez que descubra que había una forma mejor y más simple de hacer las cosas
+- Piense en todas las formas en que su nueva creación puede fallar, y escriba nuevas pruebas por cada una de ellas
+
+---
+
+# Finalmente, recuerde: 
+
+La IA aprendió todo lo que sabe resolviendo problemas, cada problema que ella resuelve por usted, es una habilidad que ella gana y una que usted deja de ganar
+
+https://nandgame.com/
+
+https://madformath.com/calculators/digital-systems/combinational-logic/full-adder-learning-tool 
+
+
+Full adder: CircuitVerse - Binary Adders 
+4 bit adder: CircuitVerse - Digital Circuit Simulator online 
