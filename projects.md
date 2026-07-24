@@ -34,10 +34,6 @@ Se requiere una aplicación que calcule el valor a pagar a un empleado que final
 
 Se requiere una aplicación que calcule el valor esperado de la pensión para un empleado al momento de su jubilación, teniendo en cuenta la reforma pensional de 2024.
 
-### Calculadora de Ahorro Programado
-
-Se requiere una aplicación que permita conocer el valor que debe ahorrar mensualmente una persona que suscriba un ahorro programado al final del periodo de tiempo pactado, para alcanzar una meta de ahorro, en una entidad financiera que pague una tasa de interés fija por el valor ahorrado. La aplicación de permitir además realizar un abono extra en la última cuota por la cantidad que el ahorrador desee.
-
 ###	Calculadora de declaración de renta
 
 Se requiere una aplicación que calcule la declaración de renta para un asalariado
@@ -65,3 +61,7 @@ con periodo de gracia y en la modalidad de Largo Plazo (todos los pagos se hacen
 ###	Calculadora de Hipoteca Inversa
 
 Se requiere una aplicación que calcule la cuota mensual que el banco pagaría a una persona que tome una hipoteca inversa
+
+### Calculadora de Ahorro Programado
+
+Se requiere una aplicación que permita conocer el valor que debe ahorrar mensualmente una persona que suscriba un ahorro programado al final del periodo de tiempo pactado, para alcanzar una meta de ahorro, en una entidad financiera que pague una tasa de interés fija por el valor ahorrado. La aplicación de permitir además realizar un abono extra en la última cuota por la cantidad que el ahorrador desee.

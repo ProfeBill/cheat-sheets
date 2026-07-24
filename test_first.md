@@ -21,15 +21,6 @@ La filosofía Test First es una simplificación de la metodología [Test Driven 
 - Un programa "Robusto" es aquel que puede manejar una gran cantidad de situaciones de error y continuar funcionando 
 
 
-## TDD paso a paso: El semáforo 
-
-[![](https://mermaid.ink/img/pako:eNpVkUFOwzAQRa8y8rpdUGDjBVJF2bEqrJClysST1MKxw9gGVVVPxRG4GJM4SUkW0cz_T3_s8VlUwaCQIiadcGd1Q7pdf22UB_6MJaySDR6e98oPWuV0jDusgdBAbZ2TXCydhhB98YZy6Z7QufBd7FKPyVBr60DCBrYRm0ya4DMjq85hATqOYOBuBg4MHFgdfcJaVykQM_ewH5tF-nr9MKXcwlOsyL5bgsffH2Ob8G9Iz9EcsMjurfGkN7DlCzZ80OzhFWMqaPkPFy7ktKFRGyZcNzOq84BpKb0lVqJFarU1_ETnXlMiHbFFJSSXRtOHEspfmNM5hZeTr4RMlHElKOTmKCSvL3KXO3N931nttH8LYeovf4p3rmM?type=png)](https://mermaid.live/edit#pako:eNpVkUFOwzAQRa8y8rpdUGDjBVJF2bEqrJClysST1MKxw9gGVVVPxRG4GJM4SUkW0cz_T3_s8VlUwaCQIiadcGd1Q7pdf22UB_6MJaySDR6e98oPWuV0jDusgdBAbZ2TXCydhhB98YZy6Z7QufBd7FKPyVBr60DCBrYRm0ya4DMjq85hATqOYOBuBg4MHFgdfcJaVykQM_ewH5tF-nr9MKXcwlOsyL5bgsffH2Ob8G9Iz9EcsMjurfGkN7DlCzZ80OzhFWMqaPkPFy7ktKFRGyZcNzOq84BpKb0lVqJFarU1_ETnXlMiHbFFJSSXRtOHEspfmNM5hZeTr4RMlHElKOTmKCSvL3KXO3N931nttH8LYeovf4p3rmM)
-
-- Comience por escribir una prueba 
-- Asegúrese de que la prueba falle
-- Escriba el código mínimo para que la prueba pase
-- Ejecute la prueba y verifique que pase
-- Haga refactoring para asegurarse de que el código cumple las condiciones de Clean Code
 
 ## Test Case
 
@@ -48,6 +39,15 @@ Es un caso documentado de los resultados esperados de la ejecución de un artefa
 - Permiten que se pueda probar el software a futuro cuando sea modificado
  
 - Ayudan a escribir la documentación y facilitan la capacitación práctica de los usuarios finales cuando el software sea entregado
+
+# El Bloque Fundamental de COntrucción: La Función 
+
+[![](https://mermaid.ink/img/pako:eNo9jDsKwzAQBa8itrLBvoCKVEmXIsRdULNI6w9IWrNeEYLx3SNCkm5meLwdPAcCC2Pkp59R1FzvLl-yCgY0fX8yN2FPGzfNF9r2kweMS0DoIJEkXEL92F02xoHOlMiBrRhoxBLVgctHnWJRHl7Zg1Up1IFwmWawI8atWlkDKp0XnATTv66YH8w_P95cDTvA?type=png)](https://mermaid.live/edit#pako:eNo9jDsKwzAQBa8itrLBvoCKVEmXIsRdULNI6w9IWrNeEYLx3SNCkm5meLwdPAcCC2Pkp59R1FzvLl-yCgY0fX8yN2FPGzfNF9r2kweMS0DoIJEkXEL92F02xoHOlMiBrRhoxBLVgctHnWJRHl7Zg1Up1IFwmWawI8atWlkDKp0XnATTv66YH8w_P95cDTvA)
+
+1. Nombre 
+2. Datos de Entrada
+3. Proceso
+4. Datos de Salida
 
 ### Elementos de un Caso de Prueba
 
@@ -146,3 +146,14 @@ Las verificaciones de esas condiciones de error siempre se hacen al comienzo de 
 - Si el caso de prueba es diferente, el programa es diferente
 - Una vez caso de prueba y programa se construyan y funcionen NUNCA los cambie
 - La calidad del software es proporcional a la cantidad de casos de prueba que se escriban para él
+
+
+## TDD paso a paso: El semáforo 
+
+[![](https://mermaid.ink/img/pako:eNpVkUFOwzAQRa8y8rpdUGDjBVJF2bEqrJClysST1MKxw9gGVVVPxRG4GJM4SUkW0cz_T3_s8VlUwaCQIiadcGd1Q7pdf22UB_6MJaySDR6e98oPWuV0jDusgdBAbZ2TXCydhhB98YZy6Z7QufBd7FKPyVBr60DCBrYRm0ya4DMjq85hATqOYOBuBg4MHFgdfcJaVykQM_ewH5tF-nr9MKXcwlOsyL5bgsffH2Ob8G9Iz9EcsMjurfGkN7DlCzZ80OzhFWMqaPkPFy7ktKFRGyZcNzOq84BpKb0lVqJFarU1_ETnXlMiHbFFJSSXRtOHEspfmNM5hZeTr4RMlHElKOTmKCSvL3KXO3N931nttH8LYeovf4p3rmM?type=png)](https://mermaid.live/edit#pako:eNpVkUFOwzAQRa8y8rpdUGDjBVJF2bEqrJClysST1MKxw9gGVVVPxRG4GJM4SUkW0cz_T3_s8VlUwaCQIiadcGd1Q7pdf22UB_6MJaySDR6e98oPWuV0jDusgdBAbZ2TXCydhhB98YZy6Z7QufBd7FKPyVBr60DCBrYRm0ya4DMjq85hATqOYOBuBg4MHFgdfcJaVykQM_ewH5tF-nr9MKXcwlOsyL5bgsffH2Ob8G9Iz9EcsMjurfGkN7DlCzZ80OzhFWMqaPkPFy7ktKFRGyZcNzOq84BpKb0lVqJFarU1_ETnXlMiHbFFJSSXRtOHEspfmNM5hZeTr4RMlHElKOTmKCSvL3KXO3N931nttH8LYeovf4p3rmM)
+
+- Comience por escribir una prueba 
+- Asegúrese de que la prueba falle
+- Escriba el código mínimo para que la prueba pase
+- Ejecute la prueba y verifique que pase
+- Haga refactoring para asegurarse de que el código cumple las condiciones de Clean Code
