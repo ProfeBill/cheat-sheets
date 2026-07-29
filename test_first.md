@@ -40,14 +40,16 @@ Es un caso documentado de los resultados esperados de la ejecución de un artefa
  
 - Ayudan a escribir la documentación y facilitan la capacitación práctica de los usuarios finales cuando el software sea entregado
 
-# El Bloque Fundamental de COntrucción: La Función 
+# El Bloque Fundamental de Construcción: La Función 
 
 [![](https://mermaid.ink/img/pako:eNo9jDsKwzAQBa8itrLBvoCKVEmXIsRdULNI6w9IWrNeEYLx3SNCkm5meLwdPAcCC2Pkp59R1FzvLl-yCgY0fX8yN2FPGzfNF9r2kweMS0DoIJEkXEL92F02xoHOlMiBrRhoxBLVgctHnWJRHl7Zg1Up1IFwmWawI8atWlkDKp0XnATTv66YH8w_P95cDTvA?type=png)](https://mermaid.live/edit#pako:eNo9jDsKwzAQBa8itrLBvoCKVEmXIsRdULNI6w9IWrNeEYLx3SNCkm5meLwdPAcCC2Pkp59R1FzvLl-yCgY0fX8yN2FPGzfNF9r2kweMS0DoIJEkXEL92F02xoHOlMiBrRhoxBLVgctHnWJRHl7Zg1Up1IFwmWawI8atWlkDKp0XnATTv66YH8w_P95cDTvA)
 
-1. Nombre 
-2. Datos de Entrada
-3. Proceso
-4. Datos de Salida
+Las funciones son las unidades de código fuente que resuelven un problema a la vez. tener el código dividido en estos bloques reutilizables, no solo lo hace más entendible y mantenible, sino que permite que escribamos otras funciones encargadas de probar que cumplan su propósito.
+
+1. Nombre : Para que sirve
+2. Datos de Entrada : Que información ya conocemos
+3. Proceso : El código que resuelve el problema
+4. Datos de Salida : El problema resuelto con la función
 
 ### Elementos de un Caso de Prueba
 
