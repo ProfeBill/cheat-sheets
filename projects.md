@@ -34,6 +34,10 @@ Se requiere una aplicación que calcule el valor a pagar a un empleado que final
 
 Se requiere una aplicación que calcule el valor esperado de la pensión para un empleado al momento de su jubilación, teniendo en cuenta la reforma pensional de 2024.
 
+### Identificador de Obligados a Declarar Renta
+
+Se requiere una aplicación le permita a una persona determinar si cumple las condiciones para estar obligado a declarar renta en Colombia
+
 ###	Calculadora de declaración de renta
 
 Se requiere una aplicación que calcule la declaración de renta para un asalariado
