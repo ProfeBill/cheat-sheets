@@ -48,6 +48,8 @@ Por ahora estamos en construcción, pero sientase libre de explorar y enviar sus
 
 [Softensity Clean Code Cheat Sheet](https://www.softensity.com/blog/clean-code-cheat-sheet/)
 
+[Python code disasters](https://github.com/sobolevn/python-code-disasters)
+
 ## Tema 3 : Interfaz de Usuario Gráfica
 
 [Buenas prácticas](gui.md)
