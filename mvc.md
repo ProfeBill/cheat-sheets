@@ -55,6 +55,7 @@ myproject/
 |    │   ├── __init__.py
 |        ├── urls.py
 |        └── blueprints.py
+├── doc
 ├── tests
 ├── .gitignore
 ├── config.py
