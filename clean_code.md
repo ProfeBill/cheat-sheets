@@ -2,6 +2,16 @@
 
 Inspirado en https://testdriven.io/blog/clean-code-python/ 
 
+## Reglas Generales
+
+1. Regla del Boy Scout: Deje el campamento aún más limpio que como lo encontró
+2. Siga una guía de estándares de programación
+3. KISS Keep it simple, stupid. Evite la complejidad, así tome más tiempo
+4. Siempre encuentre la causa raíz y elimínela
+5. Siga el principio de la mínima sorpresa. Escriba código aburrido
+6. Don’t repeat yourself (DRY). Menos código, son menos lugares donde fallar
+7. No se pase por alto las instrucciones de seguridad
+
 ## La regla fundamental del buen nombre
 
 Poner el nombre correcto a las cosas es la primera responsabilidad de un programador profesional.
@@ -23,6 +33,19 @@ cantidad_de_usuarios_activos = 55
 ```
 ## Variables
 ### 1. Usa sustantivos para los nombres de las variables.
+
+```Python
+# Esto está mal
+calcular = True
+mejor = 255
+
+# Esto está bien
+calculo_activo = True
+limite_mejora = 255
+
+```
+
+
 ### 2. Usa nombres descriptivos/reveladores de intenciones.
 Otros desarrolladores deberían ser capaces de averiguar lo que almacena una variable con solo leer su nombre.
 ```Python
