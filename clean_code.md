@@ -178,7 +178,18 @@ fecha_creacion = 1621535852
 
 
 ## Funciones
-### 1. Usar verbos para los nombres de las funciones
+### 1. Use verbos para los nombres de las funciones
+
+```python
+# Esto está mal
+def nombre(): pass
+def calculo(): pass
+
+# Esto está bien
+def obtener_nombre(): pass
+def calcular_edad(): pass
+```
+
 ### 2. No utilices palabras diferentes para el mismo concepto
 Escoge una palabra para cada concepto y apégate a ella. El uso de diferentes palabras para el mismo concepto causará confusión.
 ```python
@@ -190,9 +201,14 @@ def buscar_edad(): pass
 def obtener_nombre(): pass
 def obtener_edad(): pass
 ```
-### 3. Escribe funciones cortas y sencillas
+### 3. Escribe funciones cortas y sencillas.
+
+Si una función comienza a hacerse larga, divide el problema que debe resolver en varias funciones más pequeñas, cada una resolviendo una parte del problema
+
 ### 4. Las funciones solo deben realizar una sola tarea
+
 Si su función contiene la palabra clave 'y', probablemente pueda dividirla en dos funciones. Veamos un ejemplo:
+
 ```python
 # Esto está mal
 def buscar_y_mostrar_personal():
@@ -244,8 +260,10 @@ def renderizar_articulo_del_blog(articulo_del_blog):
 
 renderizar_articulo_del_blog(articulo_del_blog1)
 ```
+
 ### 6. No uses banderas en las funciones
 Las banderas son variables (generalmente booleanas) que se pasan a las funciones, que la función utiliza para determinar su comportamiento. Se consideran un mal diseño porque las funciones solo deben realizar una tarea. La forma más fácil de evitar las banderas es dividir la función en funciones más pequeñas.
+
 ```python
 texto = "Esta es una entrada de blog genial."
 
@@ -272,13 +290,14 @@ texto_mayuscula = mayuscula(texto)
 texto_minuscula = minuscula(texto)
 ```
 ### 7. Evita los efectos secundarios
+
 Una función produce un efecto secundario si hace cualquier cosa que no sea tomar un valor y devolver otro valor o valores. Por ejemplo, un efecto secundario podría ser escribir en un archivo o modificar una variable global.
 
 ### 8. Estándares
 
 - Utiliza siempre minúsculas para los nombres de las funciones y usa underscores _ para separar palabras
-- Utiliza parámetros nombrados para invocar funciones y evitar Magic Literals
-- Al declarar las funciones, utiliza siempre pistas de tipo
+- Utiliza parámetros nombrados para invocar funciones y evita pasar por parámetro Magic Literals
+- Al declarar las funciones, utiliza siempre pistas de tipo para cada parámetro
 
 ```python
 
@@ -307,6 +326,7 @@ texto_minuscula = minuscula(texto = "QUIERO SER MINUSCULA" )
 
 
 ## Comentarios
+
 No importa cuánto intentemos escribir código limpio, todavía habrá partes de su programa que necesiten una explicación adicional. Los comentarios nos permiten decirle rápidamente a otros desarrolladores (y a nosotros mismos del futuro) por qué lo escribimos de la manera en que lo hicimos. Ten en cuenta que agregar demasiados comentarios puede hacer que tu código sea más desordenado de lo que sería sin ellos.
 
 ### 1. No comentes un código malo, reescríbelo
