@@ -43,7 +43,7 @@
       
 ## Tema 4 : Bases de Datos Relacionales
 
-- [ ] Instrucciones en el README para crear la base de datos, realizar la conexión y ejecutar el programa
+- [ ] Pull Request enviado. Instrucciones en el README para crear la base de datos, realizar la conexión y ejecutar el programa
 - [ ] secret_config_sample.py con instrucciones de uso y no contiene datos privados en secret_config.py
 - [ ] Creadas clases de Model  
 - [ ] Funcionalidad en el Controller para insertar
